@@ -194,6 +194,8 @@ st.markdown(
         box-shadow:var(--shadow); }
     [data-testid="stNotification"] { border-radius:12px; }
     hr { border-color:var(--c-line); }
+    /* Streamlit-Kopfleiste (oben) in beiden Modi transparent statt weiss */
+    [data-testid="stHeader"] { background:transparent !important; }
 
     /* ---- Barrierefreiheit: sichtbarer Tastatur-Fokus [WCAG: Operable] ---- */
     a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible,
@@ -223,8 +225,6 @@ if dark:
               radial-gradient(900px 420px at 100% 0%, #2a1c12 0%, rgba(42,28,18,0) 55%),
               var(--c-bg);
         }
-        /* Streamlit-Kopfleiste (oben) nicht weiss lassen -> transparent */
-        [data-testid="stHeader"] { background:transparent !important; }
         /* Auswahlfelder im Dunkelmodus dunkel statt grellweiss */
         [data-testid="stSelectbox"] div[data-baseweb="select"] > div,
         [data-testid="stMultiSelect"] div[data-baseweb="select"] > div {
