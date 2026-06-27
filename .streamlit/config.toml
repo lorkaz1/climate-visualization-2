@@ -1,0 +1,12 @@
+[theme]
+# Eigenes Klima-Farbschema (Ozean-Teal + warmer Akzent), bewusst weg vom
+# Streamlit-Standard. Kontrast bleibt WCAG-konform.
+base = "light"
+primaryColor = "#0f766e"            # Teal – Akzent/Interaktion
+backgroundColor = "#f7f9fb"         # sehr helles Blaugrau statt reinweiss
+secondaryBackgroundColor = "#ffffff"
+textColor = "#0f2733"               # dunkles Petrol, hoher Kontrast
+font = "sans serif"
+
+[server]
+headless = true
