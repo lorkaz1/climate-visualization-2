@@ -58,6 +58,22 @@ Die Anwendung orientiert sich am **Shneiderman-Mantra** („Overview first, zoom
 
 ---
 
+## Installation
+
+Repository klonen:
+
+```bash
+git clone <repository-url>
+cd <projektordner>
+```
+
+Abhängigkeiten installieren:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
 ## Anwendung starten
 
 ```bash
