@@ -369,7 +369,7 @@ MONTHS_DE = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Ok
 st.markdown(
     """
     <div class="hero">
-        <div class="eyebrow">Klima-Dashboard · lokal</div>
+        <div class="eyebrow">Klima-Dashboard</div>
         <h1>Klimadaten im Kontext</h1>
         <p><strong>Leitfrage: Womit hängt die globale Erwärmung zusammen?</strong>
         Dieses Dashboard stellt die Temperatur in Beziehung zu CO₂ und anderen
@@ -783,5 +783,4 @@ with st.expander(":material/rate_review: Feedback geben (1 Frage)"):
     st.caption("Hinweis: Das Feedback wird nur lokal in `feedback.csv` gespeichert – "
                "eine Demonstration des Evaluations-Gedankens, keine echte Datenerhebung.")
 
-st.caption("Läuft vollständig lokal · Refinement von Phase 1 · Streamlit & Plotly · "
-           "Datenquelle: data/climate_change.csv")
+st.caption("Refinement vom Baseline-Entwurf · Streamlit & Plotly  ·  Datenquelle: data/climate_change.csv")
