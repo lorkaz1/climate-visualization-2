@@ -761,8 +761,6 @@ with tab_insights:
         "- Mit dem **Zeitraum-Regler** links änderst du *alle* Diagramme gleichzeitig. "
         "Fahre mit der Maus über eine Kurve, um genaue Werte zu sehen."
     )
-    st.caption("Hinweis zur Gestaltung der Seite (Typografie, Farbleitsystem, "
-               "Informationsarchitektur) siehe Datei `USABILITY.md` im Projekt.")
 
 st.divider()
 
